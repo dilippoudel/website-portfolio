@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* nav bar section */
+.header {
+  background-color: #222;
+  height: auto;
+  opacity: 0.8;
+  color: white;
+}
+
+.header-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.left-hand-header {
+  display: inline;
+  flex-grow: 3;
+  align-items: center;
+}
+.left-hand-header {
+  display: flex;
+}
+.left-hand-header > p {
+  margin-left: 12px;
+}
+.profile-img {
+  height: 50px;
+  width: 50px;
+}
+.right-hand-header {
+  flex-grow: 3;
+  margin-left: 50%;
+}
+.items {
+  display: inline;
+}
+.items > li {
+  list-style: none;
+  display: inline;
+  margin-left: 30px;
+  cursor: pointer;
+  padding: 4px;
+}
+.items > li:hover {
+  background-color: rgb(57, 54, 50);
+}
+/* header bars section */
+.header-bars-section {
+  background-color: #222;
+  margin: 0px;
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.web-info {
+  margin-top: 50pxpx;
+}
+.web-info > h2 {
+  margin-top: 24px;
+}
+.web-info > button {
+  padding: 12px;
+  background-color: #222;
+  border: 2px solid white;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.web-info > button:hover {
+  background-color: gray;
+}
+.key-features-containers {
+  display: flex;
+  justify-content: end;
+  padding: 36px;
+  height: auto;
+}
+.key-features-containers > div {
+  margin: 20px;
+}
+
+.description {
+  font-size: 14px;
+}
+.title,
+.main-title {
+  color: rgba(90, 82, 82, 0.716);
+  text-transform: uppercase;
+}
+.details > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+/* what people say section */
+.feedback-flex-container {
+  display: flex;
+  padding: 36px;
+  background-color: rgba(128, 128, 128, 0.448);
+}
+.description-text {
+  font-size: 14px;
+  background-color: white;
+  padding: 8px;
+}
+.feedback-flex-container > div {
+  margin: 20px;
+}
+.writer-details {
+  display: flex;
+  align-items: center;
+}
+.writer-details > img {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+.writer-details > div {
+  margin-left: 8px;
+}
+.writer-name {
+  margin-bottom: 2px;
+}
+.profession {
+  margin-top: 2;
+  font-size: 12px;
+}
+.text-details {
+  margin-top: 0px;
+}
+/* footer section */
+.footer-section {
+  display: block;
+  align-items: center;
+  text-align: center;
+  background-color: #222;
+  color: gray;
+}
+.footer-section > img {
+  margin-top: 12px;
+  margin-bottom: 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.caption {
+  margin-top: 0px;
+}
+.reference {
+  font-size: 12px;
+}
